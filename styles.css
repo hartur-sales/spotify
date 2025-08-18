@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -7,7 +9,7 @@
 body {
     background-color: black;
     color: white;
-    font-family: Arial, sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
 
 .container {
@@ -18,7 +20,7 @@ body {
 .sidebar {
     width: 300px;
     background-color: #121212;
-    padding: 24px;
+    padding: 18px;
     padding-bottom: 50px;
     display: flex;
     flex-direction: column;
@@ -42,20 +44,53 @@ body {
     cursor: pointer;
 }
 
-.nav-playlists {
+.nav-playlists, .nav-podcasts {
     display: flex;
     flex-direction: column;
     gap: 5px;
     background-color: #242424;
-    padding: 16px;
+    padding: 16px 12px;
     border-radius: 8px;
 }
 
-.nav-podcasts{
+.nav-playlists p, .nav-podcasts p {
+    color: #b7b3b6;
+    font-size: 12px;
+    
+}
+
+.nav-playlists button, .nav-podcasts button {
+    color: black;
+    background-color: white;
+    border: none;
+    padding: 4px 8px;
+    margin-top: 4px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 14px;
+    border-radius: 20px;
+}   
+
+.nav-footer {
+    margin-top: auto;
     display: flex;
-    flex-direction: column;
-    gap: 5px;
-    background-color: #242424;
-    padding: 16px;
-    border-radius: 8px;
+    flex-wrap: wrap;
+}
+
+.nav-footer a{
+    color: #a7a7a7;
+    text-decoration: none;
+    font-size: 12px;
+    margin-right: 12px;
+    margin-bottom: 12px;
+}
+
+.nav-lang-button{
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 6px 10px;
+    margin-top: 16px;
+    cursor: pointer;
+    border-radius: 20px;
 }
