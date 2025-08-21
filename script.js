@@ -1,10 +1,10 @@
 document.addEventListener('DOMContentLoaded', () => {
   const artistsData = [
-    { name: 'Henrique & Juliano', image: './img/artista-henrique-juliano.jpeg' },
-    { name: 'Jorge & Mateus', image: './img/artista-jorge-mateus.jpeg' },
-    { name: 'Zé Neto & Cristiano', image: './img/artista-ze-neto.jpeg' },
-    { name: 'Luan Santana', image: './img/artista-luan-santana.jpeg' },
-    { name: 'Matheus & Kauan', image: './img/artista-mateus-kauan.jpeg' }
+    { name: 'Henrique & Juliano', image: './img/artista-henrique-juliano.jpg' },
+    { name: 'Jorge & Mateus', image: './img/artista-jorge-mateus.jpg' },
+    { name: 'Zé Neto & Cristiano', image: './img/artista-ze-neto.jpg' },
+    { name: 'Luan Santana', image: './img/artista-luan-santana.jpg' },
+    { name: 'Matheus & Kauan', image: './img/artista-mateus-kauan.jpg' }
   ];
 
   const albumsData = [
