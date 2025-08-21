@@ -36,9 +36,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
     albumCard.innerHTML = `
       <img src="${album.image}" alt="imagem do album ${album.name}">
-      <h3>${album.name}</h3>
-      <p>${album.artist}</p>
-    `
+      <div>
+        <h3>${album.name}</h3>
+        <p>${album.artist}</p>
+      </div>
+      `
 
     albumGrid.appendChild(albumCard)
 
